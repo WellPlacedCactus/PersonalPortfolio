@@ -1,0 +1,53 @@
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+	/* HOUSE KEEPING */
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	/* NAVIGATION BAR */
+	a:link {
+		color: lime;
+	}
+	a:visited {
+		color: lime;
+	}
+	a:hover {
+		color: orange;
+	}
+	a:active {
+		color: black;
+	}
+
+	/* SECTIONS */
+	.section {
+		margin: 0px auto;
+		width: 1000px;
+	}
+	.header {
+		text-align: center;
+	}
+	.content {
+		text-align: left;
+	}
+	.footer {
+		text-align: right;
+	}
+
+	/* HEADERS */
+	h1 {
+		color: black;
+		font-weight: normal;
+	}
+	h2 {
+		color: black;
+		font-weight: normal;
+	}
+	h3 {
+		color: black;
+		font-weight: normal;
+		font-style: italic;
+	}
