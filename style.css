@@ -10,16 +10,16 @@
 
 	/* NAVIGATION BAR */
 	a:link {
-		color: lime;
+		color: blue;
 	}
 	a:visited {
-		color: lime;
+		color: blue;
 	}
 	a:hover {
 		color: orange;
 	}
 	a:active {
-		color: black;
+		color: red;
 	}
 
 	/* SECTIONS */
@@ -38,16 +38,17 @@
 	}
 
 	/* HEADERS */
-	h1 {
+	h1, h2, h3 {
 		color: black;
 		font-weight: normal;
+	}
+	h1 {
+		font-size: x-large;
 	}
 	h2 {
-		color: black;
-		font-weight: normal;
+		font-size: larger;
 	}
 	h3 {
-		color: black;
-		font-weight: normal;
 		font-style: italic;
+		font-size: large;
 	}
