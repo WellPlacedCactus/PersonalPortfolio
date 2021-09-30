@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background: gray;
+  background: radial-gradient(circle, gray 0%, black 100%);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body canvas {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+
+body .wrapper {
+  z-index: 10;
+  width: 85%;
+  margin: 0px auto;
+}
+
+body .wrapper .navbar {
+  background-color: transparent;
+}
+
+body .wrapper .navbar .icon, body .wrapper .navbar .links {
+  margin: 6px;
+  padding: 9px;
+}
+
+body .wrapper .navbar .icon {
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body .wrapper .navbar .links {
+  float: right;
+}
+
+body .wrapper .navbar .links a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  margin: 0px 10px;
+}
+
+body .wrapper .navbar .links a:hover {
+  border-bottom: 3px solid white;
+}
+
+body .wrapper .navbar .links a:active {
+  border-color: #165584;
+}
+
+body .wrapper .navbar .clear {
+  clear: both;
+}
+
+body .wrapper .header {
+  height: 400px;
+  background-image: url("../images/repression.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+body .wrapper .header .title {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body .wrapper .header .title .name {
+  font-size: 75px;
+}
+
+body .wrapper .header .title .job {
+  font-size: 25px;
+}
+
+body .wrapper .a {
+  height: 500px;
+}
+
+body .wrapper .b {
+  height: 500px;
+}
+
+body .wrapper .c {
+  height: 500px;
+}
+
+body .wrapper .footer {
+  height: 50px;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

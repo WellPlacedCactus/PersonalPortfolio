@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: rgb(128,128,128);
+	background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 100%);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+	canvas {
+		z-index: 0;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		pointer-events: none;
+	}
+
+	.wrapper {
+		z-index: 10;
+		width: 85%;
+		margin: 0px auto;
+
+		.navbar {
+			background-color: transparent;
+
+			.icon, .links {
+				margin: 6px;
+				padding: 9px;
+			}
+			.icon {
+				float: left;
+				font-weight: bold;
+				font-size: 20px;
+			}
+			.links {
+				float: right;
+				a {
+					color: white;
+					text-decoration: none;
+					border-bottom: 1px solid white;
+					margin: 0px 10px;
+				}
+				a:hover {
+					border-bottom: 3px solid white;
+				}
+				a:active {
+					border-color: #165584;
+				}
+			}
+			.clear {
+				clear: both;
+			}
+		}
+		.header {
+			height: 400px;
+			background-image: url('../images/repression.jpg');
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+			text-align: center;
+
+			.title {
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+
+				.name {
+					font-size: 75px;
+				}
+				.job {
+					font-size: 25px;
+				}
+			}
+		}
+		.a {
+			height: 500px;
+		}
+		.b {
+			height: 500px;
+		}
+		.c {
+			height: 500px;
+		}
+		.footer {
+			height: 50px;
+			text-align: right;
+		}
+	}
+}
