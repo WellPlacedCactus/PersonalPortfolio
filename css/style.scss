@@ -4,8 +4,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background: rgb(128,128,128);
-	background: radial-gradient(circle, rgba(128,128,128,1) 0%, rgba(0,0,0,1) 100%);
+	background-color: black;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 
@@ -19,7 +18,7 @@ body {
 
 	.wrapper {
 		z-index: 10;
-		width: 85%;
+		width: 80%;
 		margin: 0px auto;
 
 		.navbar {
@@ -54,7 +53,7 @@ body {
 			}
 		}
 		.header {
-			height: 400px;
+			height: 300px;
 			background-image: url('../images/repression.jpg');
 			background-position: center;
 			background-size: cover;
@@ -75,13 +74,10 @@ body {
 			}
 		}
 		.a {
-			height: 500px;
-		}
-		.b {
-			height: 500px;
-		}
-		.c {
-			height: 500px;
+			a:link { color: white; }
+			a:visited { color: white; }
+			a:hover { color: #FF4949; }
+			a:active { color: #FFFD81; }
 		}
 		.footer {
 			height: 50px;

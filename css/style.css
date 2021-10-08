@@ -2,8 +2,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: gray;
-  background: radial-gradient(circle, gray 0%, black 100%);
+  background-color: black;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -18,7 +17,7 @@ body canvas {
 
 body .wrapper {
   z-index: 10;
-  width: 85%;
+  width: 80%;
   margin: 0px auto;
 }
 
@@ -61,7 +60,7 @@ body .wrapper .navbar .clear {
 }
 
 body .wrapper .header {
-  height: 400px;
+  height: 300px;
   background-image: url("../images/repression.jpg");
   background-position: center;
   background-size: cover;
@@ -84,16 +83,20 @@ body .wrapper .header .title .job {
   font-size: 25px;
 }
 
-body .wrapper .a {
-  height: 500px;
+body .wrapper .a a:link {
+  color: white;
 }
 
-body .wrapper .b {
-  height: 500px;
+body .wrapper .a a:visited {
+  color: white;
 }
 
-body .wrapper .c {
-  height: 500px;
+body .wrapper .a a:hover {
+  color: #FF4949;
+}
+
+body .wrapper .a a:active {
+  color: #FFFD81;
 }
 
 body .wrapper .footer {
