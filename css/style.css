@@ -2,23 +2,15 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
-  color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-body canvas {
-  z-index: 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  pointer-events: none;
-}
-
 body .wrapper {
-  z-index: 10;
+  z-index: 1;
   width: 80%;
   margin: 0px auto;
+  background-color: white;
+  color: black;
 }
 
 body .wrapper .navbar {
@@ -41,14 +33,14 @@ body .wrapper .navbar .links {
 }
 
 body .wrapper .navbar .links a {
-  color: white;
+  color: black;
   text-decoration: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   margin: 0px 10px;
 }
 
 body .wrapper .navbar .links a:hover {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid black;
 }
 
 body .wrapper .navbar .links a:active {
@@ -66,6 +58,7 @@ body .wrapper .header {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  color: white;
 }
 
 body .wrapper .header .title {
@@ -81,22 +74,6 @@ body .wrapper .header .title .name {
 
 body .wrapper .header .title .job {
   font-size: 25px;
-}
-
-body .wrapper .a a:link {
-  color: white;
-}
-
-body .wrapper .a a:visited {
-  color: white;
-}
-
-body .wrapper .a a:hover {
-  color: #FF4949;
-}
-
-body .wrapper .a a:active {
-  color: #FFFD81;
 }
 
 body .wrapper .footer {
